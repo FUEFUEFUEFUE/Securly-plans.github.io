@@ -167,7 +167,7 @@ import { doc, onSnapshot } from "https://www.gstatic.com/firebasejs/10.12.2/fire
 const HOME_PAGE = "home.html";
 const settingsRef = doc(db, "settings", "appConfig");
 
-let redirected = false;
+let redirected = true;
 
 /* TOAST */
 function showToast(message, type = "info") {
